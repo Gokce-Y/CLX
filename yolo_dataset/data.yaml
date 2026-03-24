@@ -1,0 +1,11 @@
+path: C:\Users\Gokce Demir\Desktop\challangeX\yolo_dataset
+train: images/train
+val: images/valid
+test: images/test
+names:
+- glass
+- paper
+- cardboard
+- plastic
+- metal
+- trash
