@@ -1,0 +1,27 @@
+# Virtual environment
+venv311/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets
+dataset/
+yolo_dataset/
+yolo_dataset_clean/
+
+# YOLO / training outputs
+runs/
+*.cache
+
+# Model files
+*.keras
+*.h5
+*.pt
+
+# System files
+.DS_Store
+Thumbs.db

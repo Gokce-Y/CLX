@@ -1,11 +1,13 @@
-path: C:\Users\Gokce Demir\Desktop\challangeX\yolo_dataset
+path: C:/Users/gokce/Desktop/FHNWfs26/CLX/yolo_dataset
 train: images/train
-val: images/valid
+val: images/val
 test: images/test
+
+nc: 6
 names:
-- glass
-- paper
-- cardboard
-- plastic
-- metal
-- trash
+  0: cardboard
+  1: glass
+  2: metal
+  3: paper
+  4: plastic
+  5: trash
